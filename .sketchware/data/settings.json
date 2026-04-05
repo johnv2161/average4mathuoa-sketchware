@@ -1,0 +1,15 @@
+{
+  "blockDir": "/.sketchware/resources/block/My Block/block.json",
+  "backup-dir": "/.sketchware/backups/",
+  "palletteDir": "/.sketchware/resources/block/My Block/palette.json",
+  "legacy-ce": false,
+  "root-auto-open-after-installing": true,
+  "critical-update-reminder": true,
+  "use-asd-highlighter": false,
+  "show-every-single-block": false,
+  "always-show-blocks": false,
+  "skip-major-changes-reminder": true,
+  "built-in-blocks": false,
+  "root-auto-install-projects": false,
+  "use-new-version-control": false
+}

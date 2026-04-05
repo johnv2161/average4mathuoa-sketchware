@@ -1,0 +1,64 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="match_parent"
+			android:layout_height="80dp"
+			android:layout_marginLeft="16dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginRight="16dp"
+			android:layout_marginBottom="8dp"
+			android:padding="8dp"
+			android:background="@drawable/break_dark"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="TextView"
+			android:textSize="16sp"
+			android:textColor="#00B8D4" />
+		<ListView
+			android:id="@+id/listview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:dividerHeight="0dp"
+			android:divider="@null"
+			android:choiceMode="none"
+			tools:listitem="@layout/picker" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="120dp"
+			android:padding="8dp"
+			android:orientation="vertical"
+			android:weightSum="1">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:padding="8dp"
+				android:background="@color/colorControlHighlight"
+				android:textSize="12sp" />
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Πίσω για ακύρωση"
+				android:textSize="16sp"
+				android:textColor="@color/colorControlNormal" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

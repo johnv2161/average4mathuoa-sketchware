@@ -1,0 +1,96 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="8dp"
+		android:paddingRight="8dp"
+		android:background="#000000"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="match_parent"
+			android:layout_height="85dp"
+			android:layout_margin="8dp"
+			android:padding="8dp"
+			android:background="@drawable/main_dark"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Μαθηματικό Ε.Κ.Π.Α. Μ.Ο."
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FF9800" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#000000"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="65dp"
+			android:layout_margin="4dp"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:background="@android:color/transparent"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/linear5"
+				android:layout_width="130dp"
+				android:layout_height="60dp"
+				android:paddingRight="6dp"
+				android:background="@android:color/transparent"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/button1"
+					android:layout_width="wrap_content"
+					android:layout_height="50dp"
+					android:padding="8dp"
+					android:background="@drawable/break_dark"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Τροποποίηση"
+					android:textSize="14sp"
+					android:textColor="#00B8D4" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="wrap_content"
+				android:layout_height="60dp"
+				android:paddingLeft="6dp"
+				android:background="@android:color/transparent"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/button2"
+					android:layout_width="wrap_content"
+					android:layout_height="50dp"
+					android:padding="8dp"
+					android:background="@drawable/break_dark"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Υπολογισμός Μέσου Όρου"
+					android:textSize="14sp"
+					android:textColor="#00B8D4"
+					android:enabled="false" />
+			</LinearLayout>
+		</LinearLayout>
+		<ListView
+			android:id="@+id/listview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:background="@android:color/transparent"
+			android:dividerHeight="0dp"
+			android:divider="@null"
+			android:choiceMode="none"
+			tools:listitem="@layout/add" />
+	</LinearLayout>
+</LinearLayout>

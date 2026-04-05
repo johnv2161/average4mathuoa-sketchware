@@ -1,0 +1,7 @@
+----------
+1. ERROR in /storage/emulated/0/.sketchware/mysc/602/app/src/main/java/com/advancedgears/average4mathuoa/MainActivity.java (at line 223)
+	.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b, int c, int d) { this.setCornerRadius(a); this.setStroke(b, c); this.setColor(d); return this; } }.getIns((int)25, (int)2, 0xFFEEFF41, 0xFF212121));
+	^
+Syntax error on token ".", delete this token
+----------
+1 problem (1 error)
